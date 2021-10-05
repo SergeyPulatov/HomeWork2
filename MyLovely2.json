@@ -1,7 +1,13 @@
 {
 	"FIO": "Pulatov Sergey Andreevich",
-	"AGE": "24",
+	"AGE": 24,
 	"PETS": "One cat",
-	"Future salary": "Google"
+	"Future salary": "Google",
+	"Favorite Film": "500 days of summer",
+	"Favorite serial": "Better call Sаul",
+	"Favorite meal": "Caesar salad",
+	"Favorite mounth": "Summer",
+	"Where i want to go": "USA" 
 }
+
 

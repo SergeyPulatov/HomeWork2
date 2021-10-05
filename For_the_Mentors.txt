@@ -1,0 +1,118 @@
+4. Создать файл “new.json”        -       > MyLovely.json
+
+ 5. Добавить файл под гит.         -       git add MyLovely.json
+
+ 6. Закоммитить файл.               -          git commit -m "For 2 Homework"
+
+ 7. Отправить файл на внешний GitHub репозиторий.        -           git push
+
+ 
+ 8. Создать файлы new2.json, new2.xml, new2.txt          -              > MyLovely2.json  > MyX.xml > MyT.txt
+
+
+
+ 9. Добавить файлы под гит.                                           -                git add .
+
+
+ 10. Закоммитить файлы.                                              -                     git commit -m "For 2 Homework"
+
+
+ 11. Отправить файлы на внешний GitHub репозиторий.                -               git push
+
+ 12. Отредактировать содержание файла “new2.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата).
+
+ vim MyT.txt : 
+
+1. Пулатов Сергей Андреевич
+2. 24
+3. 1
+4. 100 тысяч мильонов
+
+:wq
+
+ 13. Отредактировать содержание файла “new2.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+
+ vim MyLovely2.json
+{
+        "FIO": "Pulatov Sergey Andreevich",
+        "AGE": "24",
+        "PETS": "One cat",
+        "Future salary": "Google"
+}
+
+:wq
+
+ 14. Добавить и закоммитить “new2.txt” одной строчкой.                 -                   git commit -am "For 2 Homework"
+
+ 15. Добавить и закоммитить “new2.json” одной строчкой.               -                   git commit -am "For 2 Homework"
+
+ 16. Отправить изменения на внешний репозиторий.                         -                    git push
+    
+ 17. Отредактировать содержание файла “new2.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+
+vim MyX.xml
+
+<ABOUT_ME>
+  <FIO>Pulatov Sergey Andreevich</FIO>
+  <AGE>24</AGE>
+  <PETS>one cat</PETS>
+  <FUTURE_SALARY>Google</FUTURE_SALARY>
+</ABOUT_ME>
+
+:wq
+
+ 18. Добавить и закоммитить “new2.xml” одной строчкой.               -                    git commit -am "For 2 Homework"
+
+ 19. Отправить изменения на внешний репозиторий.                         -                    git push
+
+ 20. Отправить предыдущее домашнее задание по GitBush Terminal на внешний репозиторий.                       -                                  You can see it om my GitHub
+
+ 21. В веб интерфейсе GitHub создать файл new3.txt.                                                                          -                                              Add file -> Create new file
+
+ 22. Отредактировать в веб интерфейсе содержание файла “new3.txt” - написать информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить).
+
+500 дней лета
+Лучше звоните Солу
+Салат Цезарь
+Лето
+США
+
+ 23. Сделать Commit changes (сохранить) изменения на веб интерфейсе             -                      Done
+
+ 24. Синхронизировать внешний и локальный репозитории (слить изменения с внешнего репозитория)                  -                     get pull 
+
+ 25. Отредактировать в веб интерфейсе содержание файла “new2.json” - добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить). Всё в формате JSON.
+
+{
+	"FIO": "Pulatov Sergey Andreevich",
+	"AGE": 24,
+	"PETS": "One cat",
+	"Future salary": "Google",
+	"Favorite Film": "500 days of summer",
+	"Favorite serial": "Better call Sаul",
+	"Favorite meal": "Caesar salad",
+	"Favorite mounth": "Summer",
+	"Where i want to go": "USA" 
+
+
+ 26. Сделать Commit changes (сохранить) изменения на веб интерфейсе.              -          Done
+
+ 27. Синхронизировать внешний и локальный репозитории                                    -             get pull             
+
+ 28. Отредактировать в веб интерфейсе содержание файла “new2.xml” - добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить). Всё в формате XML.
+
+<ABOUT_ME>
+  <FIO>Pulatov Sergey Andreevich</FIO>
+  <AGE>24</AGE>
+  <PETS>one cat</PETS>
+  <FUTURE_SALARY>Google</FUTURE_SALARY>
+  <FAVORITE_FILM>500 days of summer</FAVORITE_FILM>
+  <FAVORITE serial>Better call Sаul</FAVORITE serial>
+  <FAVORITE meal>Caesar salad</FAVORITE meal>
+  <FAVORITE mounth>Summer</FAVORITE mounth>
+  <WHERE_I_WANT_TO_GO>USA</WHERE_I_WANT_TO_GO>
+</ABOUT_ME>
+
+ 29. Сделать Commit changes (сохранить) изменения на веб интерфейсе.                    -                   Done
+
+ 30. Синхронизировать внешний и локальный репозитории                                           -                    get pull

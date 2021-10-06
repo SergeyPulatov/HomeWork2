@@ -35,16 +35,16 @@
  vim MyLovely2.json
 {
         "FIO": "Pulatov Sergey Andreevich",
-        "AGE": "24",
+        "AGE": 24,
         "PETS": "One cat",
         "Future salary": "Google"
 }
 
 :wq
 
- 14. Добавить и закоммитить “new2.txt” одной строчкой.                 -                   git commit -am "For 2 Homework"
+ 14. Добавить и закоммитить “new2.txt” одной строчкой.                 -                   git commit MyT.txt "For 2 Homework"
 
- 15. Добавить и закоммитить “new2.json” одной строчкой.               -                   git commit -am "For 2 Homework"
+ 15. Добавить и закоммитить “new2.json” одной строчкой.               -                   git commit MyLovely2.json "For 2 Homework"
 
  16. Отправить изменения на внешний репозиторий.                         -                    git push
     
@@ -52,6 +52,7 @@
 
 vim MyX.xml
 
+<?xml version="1.0" encoding="UTF-8" ?>
 <ABOUT_ME>
   <FIO>Pulatov Sergey Andreevich</FIO>
   <AGE>24</AGE>
@@ -61,13 +62,13 @@ vim MyX.xml
 
 :wq
 
- 18. Добавить и закоммитить “new2.xml” одной строчкой.               -                    git commit -am "For 2 Homework"
+ 18. Добавить и закоммитить “new2.xml” одной строчкой.               -                    git commit MyX.txt "For 2 Homework"
 
  19. Отправить изменения на внешний репозиторий.                         -                    git push
 
  20. Отправить предыдущее домашнее задание по GitBush Terminal на внешний репозиторий.                       -                                  You can see it om my GitHub
 
- 21. В веб интерфейсе GitHub создать файл new3.txt.                                                                          -                                              Add file -> Create new file
+ 21. В веб интерфейсе GitHub создать файл new3.txt.                                                                          -      Add file -> Create new file
 
  22. Отредактировать в веб интерфейсе содержание файла “new3.txt” - написать информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить).
 
@@ -92,8 +93,8 @@ vim MyX.xml
 	"Favorite serial": "Better call Sаul",
 	"Favorite meal": "Caesar salad",
 	"Favorite mounth": "Summer",
-	"Where i want to go": "USA" 
-
+	"Where i want to go": "USA"
+}
 
  26. Сделать Commit changes (сохранить) изменения на веб интерфейсе.              -          Done
 
@@ -101,6 +102,7 @@ vim MyX.xml
 
  28. Отредактировать в веб интерфейсе содержание файла “new2.xml” - добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить). Всё в формате XML.
 
+<?xml version="1.0" encoding="UTF-8" ?>
 <ABOUT_ME>
   <FIO>Pulatov Sergey Andreevich</FIO>
   <AGE>24</AGE>
